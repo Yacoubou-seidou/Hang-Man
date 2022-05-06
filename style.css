@@ -1,0 +1,175 @@
+body {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #099dee;
+}
+.main-container {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #70bcf5;
+}
+.left {
+  width: 50%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid white;
+}
+.bgd {
+  background: #396ea9;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+}
+h2 {
+  color: white;
+}
+.pend {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 251px;
+  height: 405px;
+  padding-left: 20px;
+  visibility: hidden;
+}
+.rope {
+  width: 80px;
+  height: 100px;
+  background-color: black;
+  border-radius: 5%;
+  position: relative;
+  left: 25%;
+  bottom: 5%;
+  clip-path: polygon(71% 0, 81% 0, 14% 100%, 4% 99%);
+  visibility: hidden;
+}
+.man {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80%;
+  position: relative;
+  top: 12%;
+  left: 1%;
+}
+.head {
+  position: relative;
+  bottom: 35%;
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  visibility: hidden;
+}
+.eyes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eye {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mouth {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: relative;
+  top: 60%;
+  left: 30%;
+}
+.body {
+  width: 20px;
+  height: 90px;
+  background-color: black;
+  position: relative;
+  bottom: 9%;
+  right: 22%;
+  visibility: hidden;
+}
+.left-hand {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  right: 260%;
+  top: 2%;
+  clip-path: polygon(62% 0, 76% 0, 0 71%, 0 61%);
+  visibility: hidden;
+}
+.right-hand {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  clip-path: polygon(6% 0, 24% 0, 99% 63%, 100% 76%);
+  bottom: 56%;
+  visibility: hidden;
+}
+.letft-foot {
+  width: 80px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  clip-path: polygon(47% 0, 58% 1%, 24% 100%, 10% 100%);
+  top: 20%;
+  right: 48%;
+  visibility: hidden;
+}
+.right-foot {
+  width: 80px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  clip-path: polygon(26% 0, 39% 0, 88% 100%, 76% 100%);
+  bottom: 30%;
+  right: 13%;
+  visibility: hidden;
+}
+.hr {
+  width: 100px;
+  border: 5px solid black;
+  position: relative;
+  left: 50%;
+  bottom: 2%;
+  visibility: hidden;
+}
+.hide {
+  visibility: visible;
+}
+h1 {
+  text-align: center;
+  width: 100%;
+}
+.js {
+  width: 100%;
+}
+#restart {
+  position: relative;
+  top: 60%;
+  width: 100px;
+}
