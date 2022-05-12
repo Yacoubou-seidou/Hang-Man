@@ -57,7 +57,7 @@ h2 {
   border-radius: 5%;
   position: relative;
   left: 25%;
-  bottom: 5%;
+  bottom: 4%;
   clip-path: polygon(71% 0, 81% 0, 14% 100%, 4% 99%);
   visibility: hidden;
 }
@@ -78,6 +78,7 @@ h2 {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  left: -2%;
   visibility: hidden;
 }
 .eyes {
@@ -113,7 +114,7 @@ h2 {
 }
 .left-hand {
   width: 80px;
-  height: 50px;
+  height: 52px;
   background-color: black;
   position: relative;
   right: 260%;
@@ -123,7 +124,7 @@ h2 {
 }
 .right-hand {
   width: 80px;
-  height: 50px;
+  height: 52px;
   background-color: black;
   position: relative;
   clip-path: polygon(6% 0, 24% 0, 99% 63%, 100% 76%);
@@ -137,7 +138,7 @@ h2 {
   position: relative;
   clip-path: polygon(47% 0, 58% 1%, 24% 100%, 10% 100%);
   top: 20%;
-  right: 48%;
+  right: 45%;
   visibility: hidden;
 }
 .right-foot {
@@ -147,14 +148,14 @@ h2 {
   position: relative;
   clip-path: polygon(26% 0, 39% 0, 88% 100%, 76% 100%);
   bottom: 30%;
-  right: 13%;
+  right: 15%;
   visibility: hidden;
 }
 .hr {
-  width: 100px;
+  width: 130px;
   border: 5px solid black;
   position: relative;
-  left: 50%;
+  left: 46%;
   bottom: 2%;
   visibility: hidden;
 }
