@@ -1,2 +1,2 @@
 # Hang-Man
-Hang man game no framework only html css
+Hang man game no framework only html css js
